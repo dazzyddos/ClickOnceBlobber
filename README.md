@@ -1,8 +1,8 @@
 # ClickOnce AppDomainManager Injection Toolkit
 
-Weaponize signed .NET ClickOnce applications for initial access by hijacking a dependency DLL via AppDomainManager injection and loading a C# port of ProxyBlob Agent. Ships with a C# port of [ProxyBlob](https://github.com/quarkslab/proxyblob) — a SOCKS5 proxy that tunnels all traffic through Azure Blob Storage, blending into environments where `*.blob.core.windows.net` is whitelisted.
-
 ![](./assets/ClickOnceBlobber.png)
+
+Weaponize signed .NET ClickOnce applications for initial access by hijacking a dependency DLL via AppDomainManager injection and loading a C# port of ProxyBlob Agent. Ships with a C# port of [ProxyBlob](https://github.com/quarkslab/proxyblob) — a SOCKS5 proxy that tunnels all traffic through Azure Blob Storage, blending into environments where `*.blob.core.windows.net` is whitelisted.
 
 ## Why This Works
 
